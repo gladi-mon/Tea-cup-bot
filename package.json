@@ -1,0 +1,21 @@
+{
+  "name": "discord-allrounder-bot",
+  "version": "1.0.0",
+  "description": "All-in-one Discord bot",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "@discord-player/extractor": "^4.4.8",
+    "discord-player": "^6.8.1",
+    "discord-player-youtubei": "^0.1.18",
+    "discord.js": "^14.15.0",
+    "dotenv": "^16.3.1",
+    "mediaplex": "^0.0.7",
+    "play-dl": "^1.10.1",
+    "youtubei.js": "^5.12.0"
+  }
+}
